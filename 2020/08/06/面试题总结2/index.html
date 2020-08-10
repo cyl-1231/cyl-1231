@@ -46,7 +46,23 @@
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-<div class="overlay" style="background: #4d4d4d"></div>
+<!--<div class="overlay" style="background: #4d4d4d"></div>-->
+<div class="overlay"></div>
+<script >
+	var bglist = [];
+	bglist[0] = "http://qetw4tz2h.bkt.clouddn.com/01.jpg";
+	bglist[1] = "http://qetw4tz2h.bkt.clouddn.com/02.jpg";
+	bglist[2] = "http://qetw4tz2h.bkt.clouddn.com/05.jpg";
+	setInterval('Getbg();', 8000);   //切换时间间隔，单位毫秒
+	function Getbg(){
+		var bgindex = Math.round(Math.random()*2);
+		//输出随机背景
+		var bkg = document.getElementsByClassName("left-col")[0];
+		//这句话意思是找名字是left-col的class元素，找id可以用getElementById()
+		bkg.style.backgroundImage="url("+ bglist[bgindex] +")";
+	}
+</script>
+
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
@@ -57,7 +73,7 @@
 		  <h1 class="header-author"><a href="/">cyl</a></h1>
 		</hgroup>
 <!--个性签名	-->
-			<p id="hitokoto">:D 获取中...</p>
+			<p id="hitokoto" style="color: #fff">:D 获取中...</p>
 			<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
 
 		<nav class="header-menu">
@@ -69,7 +85,7 @@
 	        
 			</ul>
 		</nav>
-		<nav>
+		<nav style="color: #fff">
 			总文章数 5
 		</nav>
 		<nav class="header-smart-menu">
