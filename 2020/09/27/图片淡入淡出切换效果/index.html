@@ -6,17 +6,25 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://cyl-1231.github.io">
-  <title>Tag: ie兼容问题 | 什么时候当老板</title>
+  <title>图片淡入淡出切换效果 | 什么时候当老板</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="个人技术博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="什么时候当老板">
-<meta property="og:url" content="https://cyl-1231.github.io/tags/ie%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98/index.html">
+  <meta name="description" content="通过代码实行多张图片淡入淡出切换，ie兼容（亲测ie6以上有效，包括ie6） 两张图片切换，其实最好的方法是flash插件，做个flash，代码少，效果好，兼容也还可以(我亲测ie6以上是可以的，哈哈~)，但甲方大大嫌安装太烦，且怕大多数用户不会安装，无奈，只能薅头发用代码写了，上网查了好多资料，终于完成了 话不多说，上代码">
+<meta property="og:type" content="article">
+<meta property="og:title" content="图片淡入淡出切换效果">
+<meta property="og:url" content="https://cyl-1231.github.io/2020/09/27/%E5%9B%BE%E7%89%87%E6%B7%A1%E5%85%A5%E6%B7%A1%E5%87%BA%E5%88%87%E6%8D%A2%E6%95%88%E6%9E%9C/index.html">
 <meta property="og:site_name" content="什么时候当老板">
-<meta property="og:description" content="个人技术博客">
+<meta property="og:description" content="通过代码实行多张图片淡入淡出切换，ie兼容（亲测ie6以上有效，包括ie6） 两张图片切换，其实最好的方法是flash插件，做个flash，代码少，效果好，兼容也还可以(我亲测ie6以上是可以的，哈哈~)，但甲方大大嫌安装太烦，且怕大多数用户不会安装，无奈，只能薅头发用代码写了，上网查了好多资料，终于完成了 话不多说，上代码">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cyl-1231.github.io/.io//1.jpg">
+<meta property="og:image" content="https://cyl-1231.github.io/.io//2.jpg">
+<meta property="og:image" content="https://cyl-1231.github.io/2020/09/27/%E5%9B%BE%E7%89%87%E6%B7%A1%E5%85%A5%E6%B7%A1%E5%87%BA%E5%88%87%E6%8D%A2%E6%95%88%E6%9E%9C/img/3.jpg">
+<meta property="og:image" content="https://cyl-1231.github.io/2020/09/27/%E5%9B%BE%E7%89%87%E6%B7%A1%E5%85%A5%E6%B7%A1%E5%87%BA%E5%88%87%E6%8D%A2%E6%95%88%E6%9E%9C/img/4.jpg">
+<meta property="article:published_time" content="2020-09-27T09:13:32.000Z">
+<meta property="article:modified_time" content="2020-09-27T09:48:12.208Z">
 <meta property="article:author" content="cyl">
+<meta property="article:tag" content="ie兼容 图片切换">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cyl-1231.github.io/.io//1.jpg">
   
     <link rel="alternative" href="/atom.xml" title="什么时候当老板" type="application/atom+xml">
   
@@ -185,62 +193,339 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-图片淡入淡出切换效果" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2020/09/01/ie6-7li%E4%B8%8A%E4%B8%8B%E9%97%B4%E8%B7%9D%E5%8F%98%E5%A4%A7/" class="archive-article-date">
-  	<time datetime="2020-09-01T03:26:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-09-01</time>
-</a>
-
-        </div>
-    	 
+          <header class="article-header">
+              
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/09/01/ie6-7li%E4%B8%8A%E4%B8%8B%E9%97%B4%E8%B7%9D%E5%8F%98%E5%A4%A7/">ie6/7li上下间距变大</a>
+    <h1 class="article-title" itemprop="name">
+      图片淡入淡出切换效果
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+              
+                  
+	<!-- 不蒜子统计 -->
+	<span id="busuanzi_container_page_pv" style='display:none' class="archive-article-date">
+              <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
+        </span>
+
+<a href="/2020/09/27/%E5%9B%BE%E7%89%87%E6%B7%A1%E5%85%A5%E6%B7%A1%E5%87%BA%E5%88%87%E6%8D%A2%E6%95%88%E6%9E%9C/" class="archive-article-date">
+  	<time datetime="2020-09-27T09:13:32.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-09-27</time>
+</a>
+
+                  <!-- 需要添加的位置 -->
+                  <!-- 开始添加字数统计-->
+                  
+                  <!-- 添加完成 -->
+              
+          </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>通过代码实行多张图片淡入淡出切换，ie兼容（亲测ie6以上有效，包括ie6）</p>
+<p>两张图片切换，其实最好的方法是flash插件，做个flash，代码少，效果好，兼容也还可以(我亲测ie6以上是可以的，哈哈~)，但甲方大大嫌安装太烦，且怕大多数用户不会安装，无奈，只能薅头发用代码写了，上网查了好多资料，终于完成了</p>
+<p>话不多说，上代码</p>
+ <a id="more"></a> 
+<p>css部分</p>
+<style>
+    /*.td-class{*/
+    /*    width:20px;*/
+    /*    height: 20px;*/
+    /*}*/
+    /*td.active {*/
+    /*    background: orange;*/
+    /*}*/
+    .showImg{
+        position: absolute;
+        opacity: 0;
+    }
+</style>
+ <div style="height:3px;width:100%;background:#2b3443"></div>
+html部分
+<body>
+<!--<table id="tab" border="1">
+    <tr>
+        <td index=0 class="td-class"></td>
+        <td index=1 class="td-class"></td>
+        <td index=2 class="td-class"></td>
+        <td index=3 class="td-class"></td>
+    </tr>
+</table>-->
+<div style="position: relative;">
+    <img class="showImg first" src="/.io//1.jpg" style="width:300px">
+    <img class="showImg" src="/.io//2.jpg" style="width:300px">
+<!--    <img class="showImg" src="./img/3.jpg" style="width:300px"/>
+    <img class="showImg" src="./img/4.jpg" style="width:300px"/>-->
+</div>
+css和html部分就不多说了，其中注释的部分是添加了点击切换的效果，因为我没用到，所以注释了
+ <div style="height:3px;width:100%;background:#2b3443"></div>
+下面最重要的是js部分了，不懂得看注释
+<script type="text/javascript">
+    window.onload = function(){
+        // var tab=document.getElementById("tab");
+        var num=0;
+        // tab.children[0].children[0].children[0].className="td-class active";
+        var showImgs=document.getElementsByTagName("img");//获取img元素，😂注意不能用document.getElementsByClassName()，ie7不兼容，好坑，这个地方卡了我好久，才发现这个错误，当然你有jq就没有这个报错了
+        // tab.addEventListener("click",function(e){
+        //     var e=e||event;
+        //     if(e.target.nodeName=="TD"){
+        //         for(var i=0;i<4;i++){
+        //             e.target.parentNode.children[i].className="td-class";
+        //         }
+        //         e.target.className="td-class active";
+        //         var index=e.target.getAttribute("index");
+        //         num=index;
+        //         fadeIn(showImgs[index]);
+        //         for(var i=0;i<4;i++){
+        //             if(i!=index){
+        //                 fadeOut(showImgs[i]);
+        //             }
+        //         }
+        //     }
+        // })
+
+<pre><code>    //没有操作时,图片的自我变换
+    setInterval(function()&#123;
+        // for(var i=0;i&lt;4;i++)&#123;
+        //     tab.children[0].children[0].children[i].className=&quot;td-class&quot;;
+        // &#125;
+        // tab.children[0].children[0].children[num].className=&quot;td-class active&quot;;
+        fadeIn(showImgs[num]);
+        for(var i=0;i&lt;2;i++)&#123;
+            if(i!=num)&#123;
+                fadeOut(showImgs[i]);
+            &#125;
+        &#125;
+        num++;
+        if(num&gt;=2)&#123;num=0;&#125;
+    &#125;,2000)
+    //获取非行内样式，获取img opacity值，这边我认为是整个代码的重中之重,判断ie 谷歌浏览器
+    function getStyle(ele)&#123;
+        if(ele.currentStyle)&#123;
+            return ele.currentStyle;//ie兼容，谷歌不兼容
+        &#125;else return getComputedStyle(ele);//谷歌兼容，ie不兼容
+    &#125;
+
+    //淡出效果
+    function fadeOut(ele,callback)&#123;                       //采用回调函数
+        var val=Number(getStyle(ele).opacity);
+        var val1=val*100
+        clearInterval(ele.timer);
+        ele.timer=setInterval(function()&#123;
+            val-=0.04;
+            val1=val*100
+            ele.style.opacity=val;
+            ele.style.filter = &quot;alpha(opacity=&quot;+ val1 +&quot;)&quot;
+            if(val&lt;=0)&#123;
+                clearInterval(ele.timer);
+                callback?callback():&quot;&quot;;
+            &#125;
+        &#125;,30)
+    &#125;
+
+    //淡入效果
+    function fadeIn(ele,callback)&#123;
+        var val=Number(getStyle(ele).opacity);
+        var val1=val*100
+        ele.timer=setInterval(function()&#123;
+            val+=0.04;
+            val1=val*100
+            ele.style.opacity=val;
+            ele.style.filter = &quot;alpha(opacity=&quot;+ val1 +&quot;)&quot;
+            if(val&gt;=1)&#123;
+                clearInterval(ele.timer);
+                callback?callback():&quot;&quot;;
+            &#125;
+        &#125;,30)
+    &#125;
+&#125;</code></pre>
+<p></script><p></p>
+ <div style="height:3px;width:100%;background:#2b3443"></div></body>
+      
+<!--    网易云      -->
+          <!--
+              <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=1000 height=350 src="http://music.163.com/song?id=1449406576&userid=361453368&height=66"></iframe>
+          -->
+<!--      网易云    -->
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/zfb.png">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/wx.png">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+        
+        <!--添加代码开始-->
+        
+            <div class="declare" hidden="hidden"></div>
+        
+
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">ie兼容问题</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">ie兼容 图片切换</a>
         		</li>
       		
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://cyl-1231.github.io/ithub.io/2020/09/27/%E5%9B%BE%E7%89%87%E6%B7%A1%E5%85%A5%E6%B7%A1%E5%87%BA%E5%88%87%E6%8D%A2%E6%95%88%E6%9E%9C/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+
+  
+<nav id="article-nav">
   
   
-    </div></section>
+    <a href="/2020/09/08/sjq%E7%BD%91%E7%AB%99%E6%96%87%E6%A1%A3%E6%95%B4%E7%90%86%EF%BC%88%E5%B7%A5%E4%BD%9C%E4%B9%8B%E9%9C%80%EF%BC%8C%E6%96%B9%E4%BE%BF%E8%87%AA%E5%B7%B1%E6%9F%A5%E7%9C%8B%EF%BC%89/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">sjq网站文档整理（工作之需，方便自己查看）</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
 
     
+        <div id="gitalk-container" style="padding: 0px 30px 0px 46px;"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID:  '',
+        clientSecret: '',
+        id: window.location.pathname,
+                repo: 'https://github.com/cyl-1231.github.io',
+        owner: 'cyl-1231',
+        admin: 'cyl-1231',
+        distractionFreeMode: 'true',
+    })
+    gitalk.render('gitalk-container')
+</script>
+
+    
+<!--
+  
+-->
+
+  
+
+  
+
+  
+
+  
+
+
+
 
 
           </div>
@@ -282,9 +567,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,

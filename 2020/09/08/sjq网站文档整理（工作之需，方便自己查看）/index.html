@@ -8,16 +8,16 @@
   <link rel="dns-prefetch" href="https://cyl-1231.github.io">
   <title>sjq网站文档整理（工作之需，方便自己查看） | 什么时候当老板</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="帝国cms问题 1.帝国cms图片集只能上传10张图片 更改php.ini文件（&#x2F;usr&#x2F;local&#x2F;php&#x2F;etc),在file uploads后加max_file_uploads &#x3D; 100,重启服务器即可（linux下rebot命令）">
+  <meta name="description" content="云服务器 132.232.96.120 Adminsitrator Chenyulin014 mysql：root&#x2F;root 帝国cms问题 1.帝国cms图片集只能上传10张图片 更改php.ini文件（&#x2F;usr&#x2F;local&#x2F;php&#x2F;etc),在file uploads后加max_file_uploads &#x3D; 100,重启服务器即可（linux下rebot命令）">
 <meta property="og:type" content="article">
 <meta property="og:title" content="sjq网站文档整理（工作之需，方便自己查看）">
 <meta property="og:url" content="https://cyl-1231.github.io/2020/09/08/sjq%E7%BD%91%E7%AB%99%E6%96%87%E6%A1%A3%E6%95%B4%E7%90%86%EF%BC%88%E5%B7%A5%E4%BD%9C%E4%B9%8B%E9%9C%80%EF%BC%8C%E6%96%B9%E4%BE%BF%E8%87%AA%E5%B7%B1%E6%9F%A5%E7%9C%8B%EF%BC%89/index.html">
 <meta property="og:site_name" content="什么时候当老板">
-<meta property="og:description" content="帝国cms问题 1.帝国cms图片集只能上传10张图片 更改php.ini文件（&#x2F;usr&#x2F;local&#x2F;php&#x2F;etc),在file uploads后加max_file_uploads &#x3D; 100,重启服务器即可（linux下rebot命令）">
+<meta property="og:description" content="云服务器 132.232.96.120 Adminsitrator Chenyulin014 mysql：root&#x2F;root 帝国cms问题 1.帝国cms图片集只能上传10张图片 更改php.ini文件（&#x2F;usr&#x2F;local&#x2F;php&#x2F;etc),在file uploads后加max_file_uploads &#x3D; 100,重启服务器即可（linux下rebot命令）">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://132.232.96.120/html/boke-img/stbgsry.png">
 <meta property="article:published_time" content="2020-09-08T10:03:35.000Z">
-<meta property="article:modified_time" content="2020-09-10T06:57:52.253Z">
+<meta property="article:modified_time" content="2020-09-23T01:59:19.369Z">
 <meta property="article:author" content="cyl">
 <meta property="article:tag" content="sjq 网站资料">
 <meta name="twitter:card" content="summary">
@@ -93,7 +93,7 @@
 			</ul>
 		</nav>
 		<nav style="color: #fff">
-			总文章数 9
+			总文章数 10
 		</nav>
 		<nav class="header-smart-menu">
     		
@@ -221,11 +221,25 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><strong>帝国cms问题</strong></p>
+        <p>云服务器</p>
+<p>132.232.96.120</p>
+<p>Adminsitrator</p>
+<p>Chenyulin014</p>
+<p>mysql：root/root</p>
+<p><strong>帝国cms问题</strong></p>
 <p>1.帝国cms图片集只能上传10张图片</p>
 <p>更改php.ini文件（/usr/local/php/etc),在file uploads后加max_file_uploads = 100,重启服务器即可（linux下rebot命令）</p>
  <a id="more"></a> 
+ <div style="height:3px;width:100%;background:#2b3443"></div>
+2.帝国移植修改文件（修改admin账号后要修改文件）
+www/e/admin路径：(外网网站修改时，密码不能简单,admin下面的密码写死的，需手动修改，才能将数据录入数据库)
+etToReadNews_cms.php     chklogin('admin','123456')
+etTopNews_cms.php     chklogin('admin','123456')
+etGoodNews_cms.php     chklogin('admin','123456')
+etFirsttitleNews_cms.php     chklogin('admin','123456')
+ecmscom.php     chklogin('admin','123456')
 
+<p>/www/e/class<br>hinfofun.php<br>t_functions.php</p>
 <p><strong>乙方后期维护</strong></p>
 <p>1.淮安远程</p>
 <p>堡垒机(运维客户端)-——市局主页——93的机器——ssh(登不了 右上角配置工具 winscp)——账号密码（文档）——备份刷新</p>
@@ -377,6 +391,15 @@ shutdown(关)——startup(重启)
 
   
 <nav id="article-nav">
+  
+    <a href="/2020/09/27/%E5%9B%BE%E7%89%87%E6%B7%A1%E5%85%A5%E6%B7%A1%E5%87%BA%E5%88%87%E6%8D%A2%E6%95%88%E6%9E%9C/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          图片淡入淡出切换效果
+        
+      </div>
+    </a>
   
   
     <a href="/2020/09/01/ie6-7li%E4%B8%8A%E4%B8%8B%E9%97%B4%E8%B7%9D%E5%8F%98%E5%A4%A7/" id="article-nav-older" class="article-nav-link-wrap">
@@ -574,6 +597,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">前端 面试题（htmlcss大方向）</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">ie兼容 图片切换</a>
               </li>
             
             <div class="clearfix"></div>
